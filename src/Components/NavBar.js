@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="NavBar">
       <nav className="nav">
         <div className="profile">
-          <img src={avatar} alt=""/>
+          <img src={avatar} alt="avatar"/>
         </div>
         <ul className="nav-items">
           <li className="nav-item">
@@ -36,11 +36,11 @@ export default function NavBar() {
             </NavLink>
           </li>
         </ul>
-      <footer className="footer">
-        <p>
-          @2021 lorem ipsum
-        </p>
-      </footer>
+        <footer className="footer">
+          <p>
+            @2021 lorem ipsum
+          </p>
+        </footer>
       </nav>
     </div>
   )
