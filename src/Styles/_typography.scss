@@ -18,3 +18,27 @@
 .h-sub-text{
   text-align: center;
 }
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  .icon-holder{
+    margin-right: 1rem;
+    .icon{
+        font-size: 2.8rem;
+        color: #a4acc4;
+        transition: all .4s ease-in-out;
+      }
+      .fb:hover{
+        color: blue;
+      }
+      .gh:hover{
+        color: rgba(205, 51, 205, 0.735);
+      }
+      .yt:hover{
+        color: red;
+      }
+  }
+}
