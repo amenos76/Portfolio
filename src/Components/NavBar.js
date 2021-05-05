@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
   return (
     <div className="NavBar">
+      <div className="profile">
+        <img src={avatar} alt="avatar"/>
+      </div>
       <nav className="nav">
-        <div className="profile">
-          <img src={avatar} alt="avatar"/>
-        </div>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" exact activeClassName="active">
